@@ -41,6 +41,13 @@ function checkAnswer(questionNumber) {
   function largerNumber(a, b) {
     // Starter code for Question 1
     // Write your code here
+    //1 compare a b
+    //2 if true return b
+    //else return a
+    if (a<b)return b
+    return a
+
+    //if(a<b))
     
   }
   
@@ -75,6 +82,13 @@ function checkAnswer(questionNumber) {
   
   function isDivisibleBy(num1, num2) {
     // Starter code for Question 8
+    // 1 divide num1 num2
+    //2 check remainder
+    //3 if remainder is 0?return true, else ruturn false
+    if (num1 % num2 === 0){
+      return true;
+    }
+    return false;
    
   }
   
